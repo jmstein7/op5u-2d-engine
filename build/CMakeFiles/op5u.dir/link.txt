@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/op5u.dir/src/main.cpp.o -o op5u  -lSDL2 -lSDL2_image -lSDL2 -lGLESv2 -lSDL2_image -lGLESv2 
