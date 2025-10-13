@@ -3,7 +3,7 @@
 A lightweight **OpenGL ES 3.1 sprite engine** built from scratch for the **Orange Pi 5 Ultra (RK3588S)**.  
 Currently rendering thousands of animated, rotating sprites at 60 FPS using the open-source **Mesa Panfrost** GPU driver.
 
-![Pac-Man grid demo](screenshots/pacman_grid.jpg)
+![Pac-Man grid demo](screenshots/pac_open.jpg)
 
 ---
 
