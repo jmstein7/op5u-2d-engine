@@ -104,6 +104,3 @@ GitHub Repository: https://github.com/jmstein7/op5u-2d-engine
 
 📄 License
 MIT License © 2025 Jonathan Stein
-
-yaml
-Copy code
