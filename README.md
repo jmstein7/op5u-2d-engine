@@ -41,5 +41,7 @@ Orange Pi 5 Ultra (16 GB RAM) + NVMe SSD + Ubuntu 22.04 Jammy Desktop
 
 ---
 
+https://hackaday.io/project/204239-op5u-orange-pi-5-ultra-2d-game-engine
+
 ## 📄 License
 MIT License © 2025 Jonathan Stein
