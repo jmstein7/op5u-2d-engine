@@ -1,4 +1,4 @@
-# 🟡 OP5U 2D Engine
+# 🟡 OP5U (Orange Pi 5 Ultra) 2D Engine
 
 A lightweight **OpenGL ES 3.1 sprite engine** built from scratch for the **Orange Pi 5 Ultra (RK3588S)**.  
 Currently rendering thousands of animated, rotating sprites at 60 FPS using the open-source **Mesa Panfrost** GPU driver.
