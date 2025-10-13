@@ -102,5 +102,20 @@ Hackaday Project Page: https://hackaday.io/project/204239-op5u-orange-pi-5-ultra
 
 GitHub Repository: https://github.com/jmstein7/op5u-2d-engine
 
+## 🟡 Milestone 2 — GPU Tilemap + Animated Sprites
+
+The engine now supports a fully GPU-driven tilemap using OpenGL ES 3.1 instancing.
+Pac-Man and Ghost tiles are animated at 60 FPS entirely on the GPU, with camera pan,
+zoom, and vsync control.
+
+![Pac-Man grid demo running on OP5U](screenshots/pac_open.jpg)
+
+### Highlights
+- 128×128 tilemap (8×8 atlas)
+- Hardware instancing — no per-sprite draw calls
+- Pac-Man animation via single texture upload
+- Smooth pan / zoom camera
+- FPS > 60 on Panfrost (Mesa 23.x)
+
 📄 License
 MIT License © 2025 Jonathan Stein
