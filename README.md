@@ -117,5 +117,17 @@ zoom, and vsync control.
 - Smooth pan / zoom camera
 - FPS > 60 on Panfrost (Mesa 23.x)
 
+## 🟢 Milestone — Parallax + Tile-Based Lighting
+
+Three tilemap layers (BG/MID/FG) now scroll with parallax and are shaded by a world-space lightmap in the fragment shader. Lighting is fully adjustable at runtime.
+
+**Controls:**  
+`1/2/3` layer toggles · `- / =` parallax (BG & MID) · `L` lighting · `[ / ]` ambient · `, / .` light strength
+
+**Notes:**  
+- GPU-instanced tiles; CPU cost stays tiny  
+- Lightmap = R8 texture (repeat), sampled per-pixel  
+- GLES 3.1 (Panfrost on OP5U)
+
 📄 License
 MIT License © 2025 Jonathan Stein
